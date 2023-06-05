@@ -858,15 +858,19 @@ section.app_section .img-box img {
 }
 
 .col-md-5 .overlap-group .t-co2e {
-  align-self: flex-start;
+  align-items: center;
+  align-self: center;
   color: var(--white);
-  font-size: 2rem;
-  font-weight: 700;
   line-height: normal;
-  margin-top: 1rem;
-  margin-left: 4rem;
-  min-height: 2rem;
+  scale: 1.2;
+  margin:auto;
   white-space: nowrap;
+}
+
+.col-md-5 .overlap-group .t-co2e p {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .col-md-5 .overlap-group .buy-group {
@@ -921,15 +925,14 @@ section.app_section .img-box img {
 }
 
 .col-md-5 .overlap-group .img-container{
+  align-self: start;
+  position: relative;
   margin-top: 2rem;
-  align-self: center;
   display: -webkit-box;
   display: -ms-flexbox;
   -webkit-box-align: center;
   -ms-flex-align: center;
   height: 25rem;
-  width: 100%;
-  padding: 1rem;
   scale: 1.2;
 }
 
